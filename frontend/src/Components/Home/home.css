@@ -1,0 +1,54 @@
+.headline-1 {
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+}
+
+.user-icon {
+    font-size: 2rem;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #bedaac;
+    border-radius: 0.3rem;
+}
+
+.card-delivery {
+    box-shadow: 2px 2px 4px #a7a3a3;
+    height: 35vh;
+}
+
+.card-delivery:hover {
+    padding-top: 1px;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+.btn_delivery {
+    background-image: linear-gradient(0deg, #fece00 0%, #ffe172 100%);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.btn_delivery:hover {
+    background-image: linear-gradient(0deg, #fece00 0%, #d6bc5e 100%);
+    font-size: 1.6rem;
+}
+
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #7367f0;
+    color: #fff;
+    /* font-size: 0em; */
+    width: 10vw !important;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: fit-content;
+    background-size: cover;
+    background-position: 0%;
+}
